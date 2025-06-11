@@ -1,10 +1,10 @@
-# 🌤️ Pixel Weather App
+# Pixel Weather App
 
 Welcome to **Pixel Weather App** — a playful, pixel-art inspired weather dashboard that brings the forecast to life with retro charm and a dash of whimsy!
 
 ---
 
-## ✨ Features
+## Features
 
 - **Current Weather:** See temperature, humidity, wind, and "feels like" at a glance.
 - **5-Day Forecast:** Plan ahead with a pixel-perfect forecast.
@@ -15,7 +15,7 @@ Welcome to **Pixel Weather App** — a playful, pixel-art inspired weather dashb
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone this repo**  
    `git clone https://github.com/yourusername/pixel-weather-app.git`
@@ -24,7 +24,7 @@ Welcome to **Pixel Weather App** — a playful, pixel-art inspired weather dashb
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 📁 miaw/
@@ -41,14 +41,14 @@ Welcome to **Pixel Weather App** — a playful, pixel-art inspired weather dashb
 
 ---
 
-## 🛠️ Customization
+## Customization
 
 - Swap out images in `/images` for your own pixel art.
 - Update your OpenWeatherMap API key in `app.js` for live data.
 
 ---
 
-## 💡 Credits
+## Credits
 
 - **Font:** [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
 - **Icons:** Custom SVGs & pixel art
