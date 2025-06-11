@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <div class="title">Weather</div>
+      <div class="temp-toggle">
+        <button id="celsius-btn" class="active">°C</button>
+        <button id="fahrenheit-btn">°F</button>
+      </div>
+    </header>
+    
+    <main id="main-content">
+      <div class="bubbles">
+        <div class="bubble bubble-1"></div>
+        <div class="bubble bubble-2"></div>
+        <div class="bubble bubble-3"></div>
+        <div class="bubble bubble-4"></div>
+      </div>
+      
+      <div class="character-wrapper">
+        <div class="character-container">
+          <img id="character-image" src="images/character-default.png" alt="One Piece character">
+        </div>
+      </div>
+      
+      <div class="message-container">
+        <div class="message-box">
+          <div class="star star-1"></div>
+          <div class="star star-2"></div>
+          <p id="weather-text">It's partly cloudy today!</p>
+        </div>
+      </div>
+      
+      <div class="scroll-indicator">
+        <p>Scroll for details</p>
+      </div>
+    </main>
+    
+    <section class="weather-details">
+      <div class="detail-section">
+        <h2>Weather Details</h2>
+        <div class="detail-grid">
+          <div class="detail-item">
+            <div class="detail-icon temp-icon"></div>
+            <div class="detail-info">
+              <p class="detail-label">Temperature</p>
+              <p id="temperature" class="detail-value">24°C</p>
+            </div>
+          </div>
+          
+          <div class="detail-item">
+            <div class="detail-icon humidity-icon"></div>
+            <div class="detail-info">
+              <p class="detail-label">Humidity</p>
+              <p id="humidity" class="detail-value">65%</p>
+            </div>
+          </div>
+          
+          <div class="detail-item">
+            <div class="detail-icon wind-icon"></div>
+            <div class="detail-info">
+              <p class="detail-label">Wind</p>
+              <p id="wind-speed" class="detail-value">5 km/h</p>
+            </div>
+          </div>
+          
+          <div class="detail-item">
+            <div class="detail-icon feels-icon"></div>
+            <div class="detail-info">
+              <p class="detail-label">Feels Like</p>
+              <p id="feels-like" class="detail-value">26°C</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="forecast-section">
+        <h2>5-Day Forecast</h2>
+        <div id="forecast-container" class="forecast-grid">
+          <!-- Forecast items will be added by JavaScript -->
+        </div>
+      </div>
+      
+      <div class="location-section">
+        <div class="search-container">
+          <input type="text" id="location-input" placeholder="Search location...">
+          <button id="search-btn">Search</button>
+        </div>
+        <p id="current-location">Tokyo, Japan</p>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
