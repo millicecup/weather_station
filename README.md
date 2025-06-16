@@ -1,3 +1,4 @@
+![](https://api.visitorbadge.io/api/VisitorHit?user=millicecupf&repo=weather_station&countColor=%237B1E7A)
 # Pixel Weather App
 
 Welcome to **Pixel Weather App** — a playful, pixel-art inspired weather dashboard that brings the forecast to life with retro charm and a dash of whimsy!
